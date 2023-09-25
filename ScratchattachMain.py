@@ -196,7 +196,7 @@ def fromCSV(CSVString):
 def main():
     # Online cloud game
     PID = "810110876"
-    session = scratch3.login("slothdoodles","iShould beScript")
+    session = scratch3.login("slothdoodles","Enter Password")
     conn = session.connect_cloud(PID)
     events = scratch3.CloudEvents(PID)
     @events.event
